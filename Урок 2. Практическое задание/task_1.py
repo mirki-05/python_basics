@@ -6,7 +6,7 @@
 а указать явно, в программе.
 
 Пример:
-для списка [5, "string", 0.15, True, None]
+для списка
 результат
 
 <class 'int'>
@@ -15,3 +15,7 @@
 <class 'bool'>
 <class 'NoneType'>
 """
+
+my_list = [5, "string", 0.15, True, None]
+for i in my_list:
+    print(type(i))
